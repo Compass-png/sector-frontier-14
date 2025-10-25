@@ -2039,3 +2039,12 @@ Entries:
   id: 149
   time: '2025-10-25T08:43:20.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/309
+- author: salo2016
+  changes:
+    - type: Add
+      message: >-
+        Cvar проверки активности шаттла для снятия лимита в случае его
+        инактивности.
+  id: 150
+  time: '2025-10-25T08:50:46.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/310
