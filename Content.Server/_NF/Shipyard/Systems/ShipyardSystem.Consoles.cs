@@ -279,12 +279,15 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
             return;
         }
 
-        if (!_bank.TryBankWithdraw(player, vessel.Price))
+        if (!voucherUsed)
         {
-            TryQueueDel(shuttleUid);
-            ConsolePopup(player, Loc.GetString("cargo-console-insufficient-funds", ("cost", vessel.Price)));
-            PlayDenySound(player, shipyardConsoleUid, component);
-            return;
+            if (!_bank.TryBankWithdraw(player, vessel.Price))
+            {
+                TryQueueDel(shuttleUid);
+                ConsolePopup(player, Loc.GetString("cargo-console-insufficient-funds", ("cost", vessel.Price)));
+                PlayDenySound(player, shipyardConsoleUid, component);
+                return;
+            }
         }
 
 
