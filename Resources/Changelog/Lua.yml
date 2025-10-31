@@ -2246,3 +2246,10 @@ Entries:
   id: 163
   time: '2025-10-31T11:47:35.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/327
+- author: ressuw
+  changes:
+    - type: Tweak
+      message: Изменен шаттл Huke
+  id: 164
+  time: '2025-10-31T11:47:55.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/331
