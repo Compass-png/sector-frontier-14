@@ -2614,3 +2614,12 @@ Entries:
   id: 192
   time: '2025-11-27T13:35:35.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/384
+- author: fox76055
+  changes:
+    - type: Add
+      message: Эхо от звуков.
+    - type: Add
+      message: Музыка во время корабельного боя.
+  id: 193
+  time: '2025-11-27T13:41:29.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/385
